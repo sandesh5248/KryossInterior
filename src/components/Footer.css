@@ -1,0 +1,163 @@
+.footer {
+    background-color: #4b5563;
+    /* Gray background */
+    color: #ffffff;
+    /* Light text */
+    padding: 9rem 0 0;
+    /* Increased padding */
+}
+
+/* ================= GRID ================= */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* ================= FOOTER INFO ================= */
+
+.footer-info p {
+    margin: 1.5rem 0 2rem;
+    opacity: 0.9;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    /* Dark white */
+}
+
+/* ================= SOCIAL LINKS ================= */
+
+.social-links {
+    display: flex;
+    gap: 1.2rem;
+    color: #ffffff;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: var(--transition);
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    background: var(--primary);
+    color: #ffffff;
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+/* ================= LINKS ================= */
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+    color: #111111;
+    /* Dark black */
+}
+
+.footer-links ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul li a {
+    opacity: 0.9;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+    color: #d1d5db;
+    /* Dark white */
+}
+
+.footer-links ul li a:hover {
+    opacity: 1;
+    color: var(--primary);
+    padding-left: 5px;
+}
+
+/* ================= CONTACT ================= */
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: #d1d5db;
+    /* Dark white */
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    opacity: 0.9;
+    color: #d1d5db;
+    /* Dark white */
+}
+
+/* ================= FOOTER BOTTOM ================= */
+
+.footer-bottom {
+    margin-top: 4rem;
+    /* Doubled margin to add space */
+    padding: 2.5rem 0 1.5rem;
+    /* Increased top padding */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #374151;
+    color: #d1d5db;
+    /* Dark white */
+}
+
+/* ================= FOOTER LOGO FIX ================= */
+
+.footer .logo {
+    display: inline-flex;
+    align-items: center;
+    height: auto;
+    /* removed height: 100% */
+    padding: 0;
+    line-height: 0;
+    /* removes bottom gap */
+}
+
+.footer .logo img {
+    height: 75px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Desktop Slightly Larger */
+@media (min-width: 1024px) {
+    .footer .logo img {
+        height: 85px;
+    }
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .footer .logo img {
+        height: 50px;
+    }
+}
