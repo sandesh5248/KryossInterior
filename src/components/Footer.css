@@ -1,8 +1,8 @@
 .footer {
-    background-color: #fdf8f3;
-    /* Warm cream background */
-    color: #111111;
-    /* Dark text */
+    background-color: #000000;
+    /* Black background */
+    color: #e5e5e5;
+    /* Light text */
     padding: 9rem 0 0;
     /* Increased padding */
 }
@@ -23,8 +23,8 @@
     opacity: 0.9;
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #6b7280;
-    /* Medium gray */
+    color: #a0aec0;
+    /* Light gray on dark */
 }
 
 /* ================= SOCIAL LINKS ================= */
@@ -32,20 +32,20 @@
 .social-links {
     display: flex;
     gap: 1.2rem;
-    color: #111111;
+    color: #e5e5e5;
 }
 
 .social-links a {
     width: 40px;
     height: 40px;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transition: var(--transition);
-    color: #111111;
+    color: #e5e5e5;
 }
 
 .social-links a:hover {
@@ -61,8 +61,8 @@
 .footer-contact h4 {
     font-size: 1.2rem;
     margin-bottom: 1.8rem;
-    color: #111111;
-    /* Dark black */
+    color: #ffffff;
+    /* White on dark */
 }
 
 .footer-links ul li {
@@ -73,8 +73,8 @@
     opacity: 0.9;
     font-size: 0.95rem;
     transition: 0.3s ease;
-    color: #4b5563;
-    /* Medium gray */
+    color: #a0aec0;
+    /* Light gray on dark */
 }
 
 .footer-links ul li a:hover {
@@ -89,8 +89,8 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    color: #4b5563;
-    /* Medium gray */
+    color: #a0aec0;
+    /* Light gray on dark */
 }
 
 .contact-item {
@@ -98,24 +98,20 @@
     align-items: flex-start;
     gap: 1rem;
     opacity: 0.9;
-    color: #4b5563;
-    /* Medium gray */
+    color: #a0aec0;
+    /* Light gray on dark */
 }
 
 /* ================= FOOTER BOTTOM ================= */
 
 .footer-bottom {
     margin-top: 4rem;
-    /* Doubled margin to add space */
     padding: 2.5rem 0 1.5rem;
-    /* Increased top padding */
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
     text-align: center;
     font-size: 0.9rem;
-    background-color: var(--kr-red);
-    color: #ffffff;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    /* Medium gray */
+    background-color: #000000;
+    color: #a0aec0;
 }
 
 /* ================= FOOTER LOGO FIX ================= */
@@ -131,13 +127,13 @@
 }
 
 .footer .logo img {
-    height: 75px;
+    height: 85px;
     width: auto;
     object-fit: contain;
     display: block;
 }
 
-/* Desktop Slightly Larger */
+/* Desktop */
 @media (min-width: 1024px) {
     .footer .logo img {
         height: 85px;
