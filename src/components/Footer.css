@@ -127,7 +127,7 @@
 }
 
 .footer .logo img {
-    height: 85px;
+    height: 100px;
     width: auto;
     object-fit: contain;
     display: block;
@@ -136,7 +136,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
     .footer .logo img {
-        height: 85px;
+        height: 100px;
     }
 }
 

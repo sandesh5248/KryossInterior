@@ -58,6 +58,29 @@
 
 /* ===== Logo ===== */
 
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: transparent !important;
+    padding: 0;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 85px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    transition: height 0.3s ease;
+    background: transparent;
+}
+
+.navbar.scrolled .logo img {
+    height: 72px;
+}
+
 .logo-text {
     font-family: 'Outfit', sans-serif;
     font-size: 1.75rem;
@@ -340,49 +363,18 @@
     }
 }
 
-/* ===== Logo Image ===== */
+/* ===== Small Mobile ===== */
 
-/* ===== Logo Image ===== */
+@media (max-width: 480px) {
+    .navbar .container {
+        padding: 0 1rem;
+    }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    background: #fff;
-    transition: all 0.3s ease;
-}
-
-.nav-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    /* control navbar height */
-}
-
-/* LOGO FIX */
-.logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    background: transparent !important;
-    padding: 0;
-
-}
-
-.logo img {
-    height: 85px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    transition: 0.3s ease;
-    background: transparent;
-}
-
-/* Desktop */
-@media (min-width: 1024px) {
     .logo img {
-        height: 85px;
+        height: 46px;
+    }
+
+    .nav-links {
+        padding: 1rem 1rem 2rem;
     }
 }
