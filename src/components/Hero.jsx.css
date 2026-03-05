@@ -98,7 +98,7 @@
 .hero-btns {
     display: flex;
     justify-content: flex-start;
-    gap: 1.2rem;
+    gap: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
@@ -115,6 +115,7 @@
     border: none;
     text-decoration: none;
     transition: all 0.3s ease;
+    margin-right: 1rem;
 }
 
 .hero-btn-primary:hover {
@@ -194,6 +195,11 @@
     .hero-btns .btn {
         width: 100%;
         justify-content: center;
+    }
+
+    .hero-btn-primary {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
     }
 
     .hero-stats {
