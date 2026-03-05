@@ -93,7 +93,7 @@ const BedroomDesign = () => {
                   A well-designed bedroom improves sleep quality, reduces stress, and creates a personal retreat from the world. Every design decision - from lighting to storage - should serve your comfort and well-being.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design bedrooms that are not just beautiful - they are deeply personal and purposefully functional.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design bedrooms that are not just beautiful - they are deeply personal and purposefully functional.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -106,8 +106,8 @@ const BedroomDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={luxury} alt="Master Bedroom - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Luxury Master Bedroom Design â€¢ Kryoss Interior</div>
+          <img src={luxury} alt="Master Bedroom - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Luxury Master Bedroom Design â€¢ Kryoss Interiors</div>
         </div>
 
         {/* IDEAS */}

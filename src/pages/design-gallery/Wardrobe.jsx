@@ -121,7 +121,7 @@ const Wardrobe = () => {
                                     A custom wardrobe is one of the most impactful investments you can make in your home. It transforms a cluttered bedroom into a serene, organized sanctuary.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design wardrobes that feel like a luxury boutique - tailored to your exact needs.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design wardrobes that feel like a luxury boutique - tailored to your exact needs.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -133,8 +133,8 @@ const Wardrobe = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={walkInLuxury} alt="Custom Wardrobe - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Walk-In Wardrobe Design â€¢ Kryoss Interior</div>
+                    <img src={walkInLuxury} alt="Custom Wardrobe - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Walk-In Wardrobe Design â€¢ Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

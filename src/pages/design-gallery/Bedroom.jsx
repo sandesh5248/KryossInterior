@@ -115,7 +115,7 @@ const Bedroom = () => {
                                     A well-designed bedroom is more than a place to sleep - it is your personal sanctuary. We craft spaces that balance comfort, storage and aesthetics to help you truly unwind.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design bedrooms that feel like a five-star retreat - every single night.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design bedrooms that feel like a five-star retreat - every single night.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -128,8 +128,8 @@ const Bedroom = () => {
 
                 {/* WIDE BANNER */}
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={contemporaryLuxury} alt="Luxury Bedroom - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Contemporary Luxury Bedroom â€¢ Kryoss Interior</div>
+                    <img src={contemporaryLuxury} alt="Luxury Bedroom - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Contemporary Luxury Bedroom â€¢ Kryoss Interiors</div>
                 </div>
 
                 {/* IDEAS GRID */}

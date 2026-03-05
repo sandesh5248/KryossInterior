@@ -1,4 +1,4 @@
-
+﻿
 @import "tailwindcss";
 html, body {
   margin: 0;
@@ -7,7 +7,7 @@ html, body {
 
 :root {
   --primary: #c41e3a;
-  /* Deep Red/Scarlet from Kryoss Interior */
+  /* Deep Red/Scarlet from KRYOSS INTERIORSs */
   --primary-dark: #a0182f;
   --secondary: #2c3e50;
   --accent: #f39c12;

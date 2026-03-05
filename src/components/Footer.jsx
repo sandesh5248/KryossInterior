@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 import logo from '../assets/logo.png';
@@ -13,7 +13,7 @@ const Footer = () => {
                         {/* <span className="logo-text">Kryoss<span className="accent-text">Interior</span></span> */}
                         <img src={logo} alt="logo" />
                     </Link>
-                    <p>Founded by experts, KryossInterior is India's most loved interior design company. We transform homes with innovative designs and precision installation.</p>
+                    <p>Founded by experts, KryossInteriors is India's most loved interior design company. We transform homes with innovative designs and precision installation.</p>
                     <div className="social-links">
                         <a href="#"><Facebook size={20} /></a>
                         <a href="#"><Instagram size={20} /></a>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <div className="container">
-                    <p>&copy; 2026 KryossInterior. All rights reserved.</p>
+                    <p>&copy; 2026 KryossInteriors. All rights reserved.</p>
                 </div>
             </div>
         </footer>

@@ -131,7 +131,7 @@ const ModularKitchenInteriors = () => {
                   A modular kitchen is not just about storage - it is about creating a space where cooking becomes a pleasure. Smart layouts, premium finishes, and intelligent storage solutions transform your kitchen into a functional work of art.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we engineer kitchens that are as beautiful as they are functional - built to last a lifetime.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we engineer kitchens that are as beautiful as they are functional - built to last a lifetime.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -148,8 +148,8 @@ const ModularKitchenInteriors = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={premiumCabinet} alt="Premium Modular Kitchen - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Premium Modular Kitchen with Island â€¢ Kryoss Interior</div>
+          <img src={premiumCabinet} alt="Premium Modular Kitchen - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Premium Modular Kitchen with Island â€¢ Kryoss Interiors</div>
         </div>
 
         {/* KITCHEN IDEAS */}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 import main from '../../assets/design-gallery/main.jpg';
@@ -144,18 +144,18 @@ const DesignGallery = () => {
 
                 {/* Wide image */}
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={main1} alt="Kryoss Interior Design Gallery" />
-                    <div className="blog-wide-image__caption">Every design tells a story • Kryoss Interior</div>
+                    <img src={main1} alt="Kryoss Interiors Design Gallery" />
+                    <div className="blog-wide-image__caption">Every design tells a story • Kryoss Interiors</div>
                 </div>
 
                 {/* Why section */}
                 <section ref={reg('why')} data-section="why" id="why" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>
                     <div className="blog-split">
                         <div>
-                            <div className="section-label"><span style={{ background: 'var(--kr-red)', display: 'block', width: '20px', height: '1.5px' }}></span>Why Kryoss Interior</div>
+                            <div className="section-label"><span style={{ background: 'var(--kr-red)', display: 'block', width: '20px', height: '1.5px' }}></span>Why Kryoss Interiors</div>
                             <h2 className="blog-section-title">Why Personalised Design <em>Matters</em></h2>
                             <p style={{ fontSize: '1.05rem', color: 'var(--kr-slate-3)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
-                                Every home is unique and deserves a design that reflects your personality and lifestyle. At Kryoss Interior, we craft spaces that are both beautiful and deeply functional.
+                                Every home is unique and deserves a design that reflects your personality and lifestyle. At Kryoss Interiors, we craft spaces that are both beautiful and deeply functional.
                             </p>
                             <div className="blog-checklist">
                                 {['Transform your living space completely', 'Maximize functionality and storage', 'Create spaces that reflect your style', 'Increase property value significantly', 'Expert installation and quality assurance', '5-year service warranty on all work'].map((item, i) => (
@@ -167,7 +167,7 @@ const DesignGallery = () => {
                             </div>
                         </div>
                         <div className="blog-image-wrap" style={{ height: '520px' }}>
-                            <img src={main} alt="Kryoss Interior Design" />
+                            <img src={main} alt="Kryoss Interiors Design" />
                         </div>
                     </div>
                 </section>

@@ -155,7 +155,7 @@ const HomeDecor = () => {
                   Home decor is the art of personalizing your space - adding layers of texture, colour, and meaning that reflect who you are. The right accessories can transform even the most basic room into something truly special.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we believe that great decor tells a story - your story.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we believe that great decor tells a story - your story.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -168,8 +168,8 @@ const HomeDecor = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={curatedHomeDecor} alt="Beautiful Home Decor - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Curated Home Decor Styling â€¢ Kryoss Interior</div>
+          <img src={curatedHomeDecor} alt="Beautiful Home Decor - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Curated Home Decor Styling â€¢ Kryoss Interiors</div>
         </div>
 
         {/* DECOR IDEAS */}

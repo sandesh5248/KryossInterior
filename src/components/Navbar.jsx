@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
@@ -184,7 +184,7 @@ const Navbar = () => {
 
           <NavDropdown title="More" cols={2} setIsOpen={setIsOpen} items={[
             { label: 'About Us', path: '/about-us' },
-            { label: 'Why Kryoss Interior', path: '/why-kryoss-interior' },
+            { label: 'Why Kryoss Interiors', path: '/why-kryoss-interior' },
             { label: 'Client Reviews', path: '/reviews' },
             { label: 'Videos', path: '/videos' },
             { label: 'FAQs', path: '/faqs' },

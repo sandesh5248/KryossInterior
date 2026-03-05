@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Sun, Dock, SlidersHorizontal, FlipHorizontal2, LayoutTemplate, Footprints, Archive, Lightbulb, Wrench } from 'lucide-react';
 import '../blogs/BlogArticle.css';
 import bathBanner from '../../assets/guides/Bathroom banner.jpg';
@@ -91,7 +91,7 @@ const Bathroom = () => {
               <h2 className="blog-section-title">Bathrooms need the <em style={{ color: 'var(--kr-red)' }}>careful planning</em>.</h2>
               <p style={{ lineHeight: 1.8, color: '#aaa', marginBottom: '2rem' }}>
                 Constant moisture, daily use, and safety concerns make bathrooms unique design challenges.
-                At Kryoss Interior, every bathroom design focuses on durability, functionality, and ease of use.
+                At Kryoss Interiors, every bathroom design focuses on durability, functionality, and ease of use.
               </p>
               <blockquote style={{ borderLeft: '3px solid var(--kr-red)', paddingLeft: '1.5rem', color: 'var(--kr-dark)', fontStyle: 'italic', fontSize: '1.1rem' }}>
                 "Smart planning prevents long-term problems and improves everyday comfort."

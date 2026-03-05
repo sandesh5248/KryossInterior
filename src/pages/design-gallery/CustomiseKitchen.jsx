@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 import customiseKitchen from '../../assets/design-gallery/customise-kitchen.jpg';
@@ -53,7 +53,7 @@ const faqs = [
     { q: 'What is the difference between a modular and a customised kitchen?', a: 'A modular kitchen uses standard-sized pre-made cabinet modules that are assembled on-site. A customised kitchen is built to your exact specifications - every dimension, material and feature is tailored to your space and requirements.' },
     { q: 'How long does a custom kitchen take to design and install?', a: 'A fully customised kitchen typically takes 4-8 weeks from design finalization to installation. This includes manufacturing, quality checks, delivery and on-site fitting.' },
     { q: 'Can I customise the interior fittings of my kitchen cabinets?', a: 'Absolutely. We offer a wide range of interior fittings including pull-out baskets, drawer organizers, spice racks, cutlery trays, bottle pull-outs and more - all customized to your specific needs.' },
-    { q: 'What is the warranty on a customised kitchen?', a: 'Kryoss Interior provides a 5-year service warranty on all customised kitchens, covering manufacturing defects, hardware and structural integrity. Countertops carry a separate manufacturer warranty.' },
+    { q: 'What is the warranty on a customised kitchen?', a: 'Kryoss Interiors provides a 5-year service warranty on all customised kitchens, covering manufacturing defects, hardware and structural integrity. Countertops carry a separate manufacturer warranty.' },
 ];
 
 const CustomiseKitchen = () => {
@@ -122,7 +122,7 @@ const CustomiseKitchen = () => {
                                     A customised kitchen is the ultimate expression of your personal style. Every dimension, material, colour and fitting is chosen by you - and crafted to perfection by our team.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we believe your kitchen should be as unique as you are - crafted to perfection.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we believe your kitchen should be as unique as you are - crafted to perfection.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -134,8 +134,8 @@ const CustomiseKitchen = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={uShapedKitchens} alt="Custom Kitchen - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Bespoke Custom Kitchen Design • Kryoss Interior</div>
+                    <img src={uShapedKitchens} alt="Custom Kitchen - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Bespoke Custom Kitchen Design • Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

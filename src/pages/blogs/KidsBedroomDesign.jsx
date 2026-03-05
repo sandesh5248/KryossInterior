@@ -132,7 +132,7 @@ const KidsBedroomDesign = () => {
                   A child's bedroom is more than just a place to sleep - it is their world. A well-designed kids bedroom supports learning, play, creativity, and rest in equal measure.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design kids bedrooms that are safe, fun, and built to grow with your child.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design kids bedrooms that are safe, fun, and built to grow with your child.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -145,8 +145,8 @@ const KidsBedroomDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={vibrantColourThemes} alt="Kids Bedroom - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Creative Kids Bedroom Design â€¢ Kryoss Interior</div>
+          <img src={vibrantColourThemes} alt="Kids Bedroom - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Creative Kids Bedroom Design â€¢ Kryoss Interiors</div>
         </div>
 
         {/* IDEAS */}

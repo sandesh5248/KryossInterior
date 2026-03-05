@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './BlogArticle.css';
 import bedroom from '../../assets/blogs/Bedroom Design.jpg';
@@ -20,7 +20,7 @@ const categories = [
     tag: 'Updates',
     link: '/blogs/dc-updates',
     image: dcUpdates,
-    desc: 'Latest news and updates from Kryoss Interior'
+    desc: 'Latest news and updates from Kryoss Interiors'
   },
   {
     title: 'Home Tours',
@@ -104,14 +104,14 @@ const Blogs = () => {
       <div className="blogs-hero">
         <img
           src={main}
-          alt="Kryoss Interior Blog"
+          alt="Kryoss Interiors Blog"
           className="blogs-hero__image"
         />
         <div className="blogs-hero__overlay">
           <div style={{ maxWidth: '700px' }}>
             <div className="section-label" style={{ color: '#fff', marginBottom: '1.25rem' }}>
               <span style={{ background: '#fff', display: 'block', width: '20px', height: '1.5px' }}></span>
-              Kryoss Interior Journal
+              Kryoss Interiors Journal
             </div>
             <h1 style={{
               fontFamily: "'Cormorant Garamond', serif",

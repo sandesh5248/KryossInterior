@@ -118,10 +118,10 @@ const ModularKitchen = () => {
                                 <div className="section-label" style={{ color: 'rgba(255,255,255,0.6)' }}><span style={{ background: 'rgba(255,255,255,0.5)', display: 'block', width: '20px', height: '1.5px' }}></span>Modular Kitchen</div>
                                 <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.8rem,3vw,2.5rem)', fontWeight: 600, color: '#fff', marginBottom: '1.25rem', lineHeight: 1.2 }}>The Heart of Every Home</h2>
                                 <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.72)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-                                    A modular kitchen is planned with precision, making daily tasks effortless. At Kryoss Interior, we design spaces that suit real cooking habits and modern lifestyles.
+                                    A modular kitchen is planned with precision, making daily tasks effortless. At Kryoss Interiors, we design spaces that suit real cooking habits and modern lifestyles.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design kitchens that are as beautiful as they are functional - a true culinary sanctuary.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design kitchens that are as beautiful as they are functional - a true culinary sanctuary.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -133,8 +133,8 @@ const ModularKitchen = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={straightKitchens} alt="Modular Kitchen - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Premium Modular Kitchen Design â€¢ Kryoss Interior</div>
+                    <img src={straightKitchens} alt="Modular Kitchen - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Premium Modular Kitchen Design â€¢ Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

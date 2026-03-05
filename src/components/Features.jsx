@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageSquare, Layout, ShieldCheck, Clock, CreditCard, Award } from 'lucide-react';
 import './Features.css';
@@ -12,7 +12,7 @@ const features = [
     {
         icon: <ShieldCheck size={32} />,
         title: "Quality Guaranteed",
-        desc: "We use KryossInterior gold plywood with a eucalyptus core, naturally termite and borer proof."
+        desc: "We use KryossInteriors gold plywood with a eucalyptus core, naturally termite and borer proof."
     },
     {
         icon: <Layout size={32} />,
@@ -41,7 +41,7 @@ const Features = () => {
         <section id="how-it-works" className="section features-section">
             <div className="container">
                 <div className="section-header text-center">
-                    <h2 className="section-title">Why <span className="accent-text">KryossInterior</span></h2>
+                    <h2 className="section-title">Why <span className="accent-text">KryossInteriors</span></h2>
                     <p className="section-subtitle">We bring your taste to life with precision and care</p>
                 </div>
 

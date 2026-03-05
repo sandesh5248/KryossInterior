@@ -46,9 +46,9 @@ const designerQualities = [
 ];
 
 const faqs = [
-  { q: 'What qualifications do Kryoss Interior designers have?', a: 'Our designers hold degrees in Interior Design or Architecture and are certified by recognized bodies like CIDA. They bring an average of 8+ years of hands-on experience across residential and commercial projects.' },
+  { q: 'What qualifications do Kryoss Interiors designers have?', a: 'Our designers hold degrees in Interior Design or Architecture and are certified by recognized bodies like CIDA. They bring an average of 8+ years of hands-on experience across residential and commercial projects.' },
   { q: 'How do I choose the right designer for my project?', a: 'We match you with a designer whose portfolio and specialty aligns with your project type and aesthetic preferences. During the initial consultation, you\'ll meet your assigned designer and can assess the fit.' },
-  { q: 'Can I work directly with a senior designer?', a: 'Yes. At Kryoss Interior, every project is led by a senior designer who is your primary point of contact throughout the project. Junior designers support execution under senior supervision.' },
+  { q: 'Can I work directly with a senior designer?', a: 'Yes. At Kryoss Interiors, every project is led by a senior designer who is your primary point of contact throughout the project. Junior designers support execution under senior supervision.' },
   { q: 'How do designers stay updated with trends?', a: 'Our team regularly attends international design fairs (Milan, Maison & Objet), subscribes to leading design publications, and participates in ongoing professional development programs.' },
 ];
 
@@ -120,7 +120,7 @@ const DCDesignStars = () => {
                   Behind every beautiful home is a talented designer who listened, understood, and translated a vision into reality. Our team brings together diverse expertise, creative passion, and technical mastery.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, our designers don't just create beautiful spaces - they create spaces that change how you live.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, our designers don't just create beautiful spaces - they create spaces that change how you live.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>

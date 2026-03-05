@@ -10,14 +10,14 @@ const updates = [
   {
     date: 'January 2026',
     tag: 'Launch',
-    title: 'Kryoss Interior Launches Premium Design Studio in Bangalore',
+    title: 'Kryoss Interiors Launches Premium Design Studio in Bangalore',
     desc: 'We are thrilled to announce the opening of our flagship design studio in Koramangala, Bangalore - a 3,000 sq ft space showcasing our full range of modular furniture, material samples, and design concepts.',
     image: bangelore,
   },
   {
     date: 'December 2025',
     tag: 'Award',
-    title: 'Kryoss Interior Wins Best Interior Design Firm - South India 2025',
+    title: 'Kryoss Interiors Wins Best Interior Design Firm - South India 2025',
     desc: 'We are honoured to have been recognized as the Best Interior Design Firm in South India at the prestigious Design Excellence Awards 2025, celebrating our commitment to quality and innovation.',
     image: south,
   },
@@ -25,7 +25,7 @@ const updates = [
     date: 'November 2025',
     tag: 'Expansion',
     title: 'Expanding to Hyderabad - New Design Centre Opening',
-    desc: 'Kryoss Interior is expanding its footprint to Hyderabad with a new design centre in Jubilee Hills. The centre will serve the growing demand for premium interior design services in the city.',
+    desc: 'Kryoss Interiors is expanding its footprint to Hyderabad with a new design centre in Jubilee Hills. The centre will serve the growing demand for premium interior design services in the city.',
     image: hydrabad,
   },
   {
@@ -64,8 +64,8 @@ const DCUpdates = () => {
         <img src={dcUpdates} alt="DC Updates" className="blog-hero__image" />
         <div className="blog-hero__overlay">
           <div className="blog-hero__content">
-            <h1 className="blog-hero__title">Latest News & Updates from <em>Kryoss Interior</em></h1>
-            <p className="blog-hero__subtitle">Stay informed about our latest launches, awards, expansions, and partnerships - the story of Kryoss Interior continues to grow.</p>
+            <h1 className="blog-hero__title">Latest News & Updates from <em>Kryoss Interiors</em></h1>
+            <p className="blog-hero__subtitle">Stay informed about our latest launches, awards, expansions, and partnerships - the story of Kryoss Interiors continues to grow.</p>
             <button onClick={() => scrollTo('updates')} className="blog-hero__cta" style={{ border: 'none', cursor: 'pointer' }}>
               Read Updates <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </button>
@@ -85,13 +85,13 @@ const DCUpdates = () => {
               <div>
                 <div className="section-label" style={{ color: 'rgba(255,255,255,0.6)' }}><span style={{ background: 'rgba(255,255,255,0.5)', display: 'block', width: '20px', height: '1.5px' }}></span>Company News</div>
                 <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '2.5rem', fontWeight: 600, color: '#fff', marginBottom: '1.25rem', lineHeight: 1.2 }}>
-                  Kryoss Interior - Growing Stronger Every Year
+                  Kryoss Interiors - Growing Stronger Every Year
                 </h2>
                 <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.72)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
                   From our humble beginnings to becoming one of India's most trusted interior design firms, our journey is one of passion, craftsmanship, and an unwavering commitment to our clients.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>Every milestone we achieve is a reflection of the trust our clients place in <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>. We are grateful for every home we've had the privilege to design.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>Every milestone we achieve is a reflection of the trust our clients place in <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>. We are grateful for every home we've had the privilege to design.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -150,7 +150,7 @@ const DCUpdates = () => {
 
         <div ref={reg('cta')} data-section="cta" className="blog-cta-section" style={{ marginBottom: '4rem' }}>
           <h2 className="blog-cta-section__title">Be Part of the <em style={{ fontStyle: 'italic', color: '#c9a96e' }}>Kryoss Story</em></h2>
-          <p className="blog-cta-section__subtitle">Join hundreds of homeowners who have trusted Kryoss Interior to design their dream home.</p>
+          <p className="blog-cta-section__subtitle">Join hundreds of homeowners who have trusted Kryoss Interiors to design their dream home.</p>
           <Link to="/contact-us" className="blog-cta-section__btn">
             Start Your Journey
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>

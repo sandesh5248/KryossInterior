@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { motion } from 'framer-motion';
 import { User, PenTool, Box, CheckCircle, Truck, MapPin } from 'lucide-react';
 import '../../index.css';
@@ -8,7 +8,7 @@ const steps = [
     {
         id: "01",
         title: "Meet a designer",
-        desc: "Talk to a designer about your needs, dreams and budget. Get an instant estimate and book with KryossInterior by paying 10%.",
+        desc: "Talk to a designer about your needs, dreams and budget. Get an instant estimate and book with KryossInteriors by paying 10%.",
         icon: <User size={40} />
     },
     {

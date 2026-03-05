@@ -136,7 +136,7 @@ const DCHomeTours = () => {
         {/* CTA */}
         <div className="blog-cta-section" style={{ marginBottom: '4rem' }}>
           <h2 className="blog-cta-section__title">Design Your Delhi NCR <em style={{ fontStyle: 'italic', color: '#c9a96e' }}>Dream Home</em></h2>
-          <p className="blog-cta-section__subtitle">Join hundreds of Delhi NCR families who have trusted Kryoss Interior to design their perfect home.</p>
+          <p className="blog-cta-section__subtitle">Join hundreds of Delhi NCR families who have trusted Kryoss Interiors to design their perfect home.</p>
           <Link to="/contact-us" className="blog-cta-section__btn">
             Get a Free Consultation
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>

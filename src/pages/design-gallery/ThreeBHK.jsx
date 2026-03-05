@@ -123,7 +123,7 @@ const ThreeBHK = () => {
                                     A 3BHK apartment offers the space to create a truly complete home - with dedicated spaces for every family member and every activity. The design possibilities are limitless.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design 3BHK homes that are as impressive as they are liveable.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design 3BHK homes that are as impressive as they are liveable.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -135,8 +135,8 @@ const ThreeBHK = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={living} alt="3BHK Interior - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Luxury 3BHK Interior Design â€¢ Kryoss Interior</div>
+                    <img src={living} alt="3BHK Interior - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Luxury 3BHK Interior Design â€¢ Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

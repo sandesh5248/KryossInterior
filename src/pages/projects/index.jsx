@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 
@@ -161,8 +161,8 @@ const Projects = () => {
 
                 {/* Wide image */}
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={transformation} alt="Kryoss Interior Projects" />
-                    <div className="blog-wide-image__caption">Every project is a story of transformation • Kryoss Interior</div>
+                    <img src={transformation} alt="Kryoss Interiors Projects" />
+                    <div className="blog-wide-image__caption">Every project is a story of transformation • Kryoss Interiors</div>
                 </div>
 
                 {/* Process */}
@@ -188,7 +188,7 @@ const Projects = () => {
                 {/* CTA */}
                 <div ref={reg('cta')} data-section="cta" className="blog-cta-section" style={{ marginBottom: '4rem' }}>
                     <h2 className="blog-cta-section__title">Ready to Start Your <em style={{ fontStyle: 'italic', color: '#c9a96e' }}>Project?</em></h2>
-                    <p className="blog-cta-section__subtitle">Join 600+ happy homeowners who trusted Kryoss Interior to transform their space. Book your free consultation today.</p>
+                    <p className="blog-cta-section__subtitle">Join 600+ happy homeowners who trusted Kryoss Interiors to transform their space. Book your free consultation today.</p>
                     <Link to="/contact-us" className="blog-cta-section__btn">Book a Free Consultation <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg></Link>
                 </div>
             </div>

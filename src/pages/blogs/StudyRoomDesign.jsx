@@ -17,7 +17,7 @@ import taskLighting from '../../assets/blogs/study/6 semi image/Task Lighting.jp
 
 import focusedStudyRoom from '../../assets/blogs/study/Focused Student Study Room.jpg';
 
-import premiumHomeOffice from '../../assets/blogs/study/Premium Home Office Design â€¢ Kryoss Interior.jpg';
+import premiumHomeOffice from '../../assets/blogs/study/Premium Home Office Design â€¢ Kryoss Interiors.jpg';
 
 import professionalHomeOffice from '../../assets/blogs/study/Professional Home Office Design.jpg';
 const studyIdeas = [
@@ -133,7 +133,7 @@ const StudyRoomDesign = () => {
                   A dedicated study room or home office is no longer a luxury - it is a necessity. The right design can significantly improve your focus, productivity, and overall well-being.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design study rooms that inspire deep work and creative thinking.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design study rooms that inspire deep work and creative thinking.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -146,8 +146,8 @@ const StudyRoomDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={premiumHomeOffice} alt="Home Office - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Premium Home Office Design â€¢ Kryoss Interior</div>
+          <img src={premiumHomeOffice} alt="Home Office - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Premium Home Office Design â€¢ Kryoss Interiors</div>
         </div>
 
         {/* IDEAS */}

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Star, MapPin, Quote } from 'lucide-react';
 import Navbar from '../../components/Navbar';
 import hero from '../../assets/more/more/hero/client review.jpg';
@@ -14,14 +14,14 @@ const reviewsList = [
     {
         name: "Priya Sharma",
         location: "Bren Imperia, Bengaluru",
-        text: "KryossInterior has made our flat into a home, a home which we always wanted. They understood us and gave us our dream home. The journey with them has been an amazing and smooth one for sure.",
+        text: "KryossInteriors has made our flat into a home, a home which we always wanted. They understood us and gave us our dream home. The journey with them has been an amazing and smooth one for sure.",
         rating: 5,
         image: client3
     },
     {
         name: "Rahul Verma",
         location: "Goregaon, Mumbai",
-        text: "I absolutely loved the work. I would definitely recommend KryossInterior to anyone. They are very professional and made the entire experience amazing. The best part is that they clearly understood our requirements and budget.",
+        text: "I absolutely loved the work. I would definitely recommend KryossInteriors to anyone. They are very professional and made the entire experience amazing. The best part is that they clearly understood our requirements and budget.",
         rating: 5,
         image: client4
     },

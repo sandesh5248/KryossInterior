@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 import home from '../../assets/offerings/home.png';
@@ -122,7 +122,7 @@ const FullHome = () => {
                                     Our full home interior package is the most comprehensive way to transform your home. One design team, one project manager, one seamless experience - from the first sketch to the final installation.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we believe your entire home should tell a single, cohesive story of who you are.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we believe your entire home should tell a single, cohesive story of who you are.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -134,8 +134,8 @@ const FullHome = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={completehome} alt="Full Home Interior - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Complete Home Interior Design • Kryoss Interior</div>
+                    <img src={completehome} alt="Full Home Interior - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Complete Home Interior Design • Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('rooms')} data-section="rooms" id="rooms" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

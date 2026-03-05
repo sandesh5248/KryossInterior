@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 import banner from '../../assets/offerings/modular/banner.png';
@@ -124,7 +124,7 @@ const ModularKitchens = () => {
                                     A modular kitchen is planned with precision, making daily cooking effortless. We design kitchens that suit your real cooking habits - not just what looks good in a showroom.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, every kitchen we design is a culinary sanctuary - beautiful, functional and built to last.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, every kitchen we design is a culinary sanctuary - beautiful, functional and built to last.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -136,8 +136,8 @@ const ModularKitchens = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={premium} alt="Modular Kitchen - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Premium Modular Kitchen • Kryoss Interior</div>
+                    <img src={premium} alt="Modular Kitchen - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Premium Modular Kitchen • Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('layouts')} data-section="layouts" id="layouts" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

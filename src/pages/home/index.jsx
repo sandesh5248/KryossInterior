@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+﻿import React, { useState, useRef, useEffect } from 'react';
 import Hero from '../../components/Hero';
 import Features from '../../components/Features';
 import { Link } from 'react-router-dom';
@@ -20,7 +20,7 @@ import wardrobe from '../../assets/Home/wardrobe.png';
 import project1 from '../../assets/Home/project1.png';
 import project2 from '../../assets/Home/project2.png';
 import project3 from '../../assets/Home/project3.png';
-import kryossVideo from '../../assets/Kryoss Interior.mp4';
+import kryossVideo from '../../assets/Kryoss Interiors.mp4';
 
 const Home = () => {
     const [currentReview, setCurrentReview] = useState(0);
@@ -58,7 +58,7 @@ const Home = () => {
 
     const reviews = [
         {
-            text: "KryossInterior transformed our empty flat into a beautiful home. The team was professional, adhered to timelines, and the finish is simply outstanding. Highly recommended!",
+            text: "KryossInteriors transformed our empty flat into a beautiful home. The team was professional, adhered to timelines, and the finish is simply outstanding. Highly recommended!",
             name: "Rahul & Priya",
             location: "Bangalore"
         },
@@ -146,17 +146,17 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Why KryossInterior (Replaces Features Component) */}
+            {/* Why KryossInteriors (Replaces Features Component) */}
             <section className="section" style={{ padding: '3rem 0' }}>
                 <div className="container">
                     <div className="section-header text-center">
-                        <h2 className="blog-section-title">Why <em style={{ color: 'var(--kr-red)' }}>KryossInterior</em></h2>
+                        <h2 className="blog-section-title">Why <em style={{ color: 'var(--kr-red)' }}>KryossInteriors</em></h2>
                         <p className="section-subtitle">We bring your taste to life with precision and care</p>
                     </div>
                     <div className="grid grid-3" style={{ gap: '2rem' }}>
                         {[
                             { icon: <UserCheck size={28} color="#fff" />, title: "Personalised for You", desc: "Tell our design experts what makes you tick, and we deliver to your needs." },
-                            { icon: <ShieldCheck size={28} color="#fff" />, title: "Quality Guaranteed", desc: "We use KryossInterior gold plywood with a eucalyptus core, naturally termite and borer proof." },
+                            { icon: <ShieldCheck size={28} color="#fff" />, title: "Quality Guaranteed", desc: "We use KryossInteriors gold plywood with a eucalyptus core, naturally termite and borer proof." },
                             { icon: <ClipboardCheck size={28} color="#fff" />, title: "Project Management", desc: "Professional project managers answer your queries and keep the project on time." },
                             { icon: <CreditCard size={28} color="#fff" />, title: "Easy EMI options", desc: "We have partnered with reputable lenders to make your interiors decision easier." },
                             { icon: <Clock size={28} color="#fff" />, title: "On-time Delivery", desc: "With 75% materials factory-made, we ensure a superior finish while keeping timelines." },

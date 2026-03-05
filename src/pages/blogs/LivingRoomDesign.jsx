@@ -144,7 +144,7 @@ const LivingRoomDesign = () => {
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
                   <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design living rooms that are as functional as they are beautiful - spaces that truly feel like home.
+                    At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design living rooms that are as functional as they are beautiful - spaces that truly feel like home.
                   </p>
                 </div>
               </div>
@@ -162,8 +162,8 @@ const LivingRoomDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={livingRoomDesignIdeas} alt="Premium Living Room - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Luxury Contemporary Living Room â€¢ Kryoss Interior</div>
+          <img src={livingRoomDesignIdeas} alt="Premium Living Room - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Luxury Contemporary Living Room â€¢ Kryoss Interiors</div>
         </div>
 
         {/* DESIGN STYLES */}

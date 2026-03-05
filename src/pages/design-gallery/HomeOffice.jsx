@@ -120,7 +120,7 @@ const HomeOffice = () => {
                                     A well-designed home office boosts productivity, reduces stress and creates a clear boundary between work and personal life. We design spaces that help you do your best work.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design home offices that are as impressive as any corporate headquarters.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design home offices that are as impressive as any corporate headquarters.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -132,8 +132,8 @@ const HomeOffice = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={executive} alt="Home Office - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Executive Home Office Design â€¢ Kryoss Interior</div>
+                    <img src={executive} alt="Home Office - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Executive Home Office Design â€¢ Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

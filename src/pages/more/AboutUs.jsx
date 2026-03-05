@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import Navbar from '../../components/Navbar';
 import about from '../../assets/more/about.png';
 import about1 from '../../assets/more/about1.png';
@@ -18,7 +18,7 @@ const AboutUs = () => {
             <div className="blog-hero">
                 <img
                     src={about}
-                    alt="Kryoss Interior Design Studio"
+                    alt="Kryoss Interiors Design Studio"
                     className="blog-hero__image"
                 />
                 <div className="blog-hero__overlay">
@@ -26,7 +26,7 @@ const AboutUs = () => {
 
                         <h1 className="blog-hero__title">Designing Homes That Are<br />Meant to Be <em style={{ color: 'var(--kr-gold)' }}>Lived In</em></h1>
                         <p className="blog-hero__subtitle">
-                            At Kryoss Interior, we believe interior design is not just about how a space looks — it’s about how it supports everyday life. A well-designed home should feel comfortable, organized, and effortless to live in.
+                            At Kryoss Interiors, we believe interior design is not just about how a space looks — it’s about how it supports everyday life. A well-designed home should feel comfortable, organized, and effortless to live in.
                         </p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                         <div className="section-label">Who We Are</div>
                         <h2 className="blog-section-title">Thoughtfully Planned <br /><em>Home Interiors</em></h2>
                         <p style={{ lineHeight: 1.8, color: 'var(--kr-slate-3)', marginBottom: '2rem' }}>
-                            Kryoss Interior is a design-led interior solutions brand offering thoughtfully planned home interiors. We work with homeowners who value clarity, functionality, and long-term comfort.
+                            Kryoss Interiors is a design-led interior solutions brand offering thoughtfully planned home interiors. We work with homeowners who value clarity, functionality, and long-term comfort.
                         </p>
                         <div className="blog-checklist">
                             {[

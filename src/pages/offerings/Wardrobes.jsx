@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../blogs/BlogArticle.css';
 import banner from '../../assets/offerings/wardrobes/banner.png';
@@ -123,7 +123,7 @@ const Wardrobes = () => {
                                     A custom wardrobe is one of the most impactful investments you can make in your home. It transforms a cluttered bedroom into a serene, organized sanctuary.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design wardrobes that feel like a luxury boutique - tailored to your exact needs.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design wardrobes that feel like a luxury boutique - tailored to your exact needs.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -135,8 +135,8 @@ const Wardrobes = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src={custom} alt="Custom Wardrobe - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Walk-In Wardrobe Design • Kryoss Interior</div>
+                    <img src={custom} alt="Custom Wardrobe - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Walk-In Wardrobe Design • Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('types')} data-section="types" id="types" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

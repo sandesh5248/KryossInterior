@@ -129,7 +129,7 @@ const DiningRoomDesign = () => {
                   The dining room is where families connect, friends gather, and celebrations happen. A thoughtfully designed dining space elevates every meal from ordinary to extraordinary.
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we design dining rooms that are elegant, functional, and perfect for every occasion.</p>
+                  <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we design dining rooms that are elegant, functional, and perfect for every occasion.</p>
                 </div>
               </div>
               <div style={{ textAlign: 'center' }}>
@@ -142,8 +142,8 @@ const DiningRoomDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={dining1} alt="Elegant Dining Room - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Elegant Dining Room Design â€¢ Kryoss Interior</div>
+          <img src={dining1} alt="Elegant Dining Room - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Elegant Dining Room Design â€¢ Kryoss Interiors</div>
         </div>
 
         {/* IDEAS */}

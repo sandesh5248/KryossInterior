@@ -60,7 +60,7 @@ const Trends = () => {
                                     Interior design in 2026 is defined by a return to nature, a rejection of excess, and a deep appreciation for craftsmanship. These 8 trends reflect a broader cultural shift towards mindful, meaningful living.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we stay ahead of trends to bring you designs that are both current and timeless.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we stay ahead of trends to bring you designs that are both current and timeless.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -73,8 +73,8 @@ const Trends = () => {
 
                 {/* WIDE BANNER */}
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80" alt="2026 Interior Design Trends - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">2026 Interior Design Trends â€¢ Kryoss Interior</div>
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80" alt="2026 Interior Design Trends - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">2026 Interior Design Trends â€¢ Kryoss Interiors</div>
                 </div>
 
                 {/* TRENDS GRID */}

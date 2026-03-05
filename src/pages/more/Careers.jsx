@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import Navbar from '../../components/Navbar';
 import careers from '../../assets/more/careers.png';
 import careers1 from '../../assets/more/carrers1.png';
@@ -17,7 +17,7 @@ const Careers = () => {
             <div className="blog-hero">
                 <img
                     src={careers}
-                    alt="Kryoss Interior Team"
+                    alt="Kryoss Interiors Team"
                     className="blog-hero__image"
                 />
                 <div className="blog-hero__overlay">
@@ -100,7 +100,7 @@ const Careers = () => {
                     <p style={{ color: 'var(--kr-slate-3)', maxWidth: '600px', margin: '0 auto 2rem' }}>
                         Share your resume and portfolio. If your skills align, we’d love to connect.
                     </p>
-                    <a href="mailto:careers@kryossinterior.com" className="blog-hero__cta">
+                    <a href="mailto:careers@kryossinteriors.com" className="blog-hero__cta">
                         Apply via Email <ChevronRight size={18} />
                     </a>
                 </div> */}

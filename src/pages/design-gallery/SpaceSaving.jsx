@@ -84,7 +84,7 @@ const SpaceSaving = () => {
                                     Space-saving design is not about compromise - it is about ingenuity. The best compact homes are often the most thoughtfully designed, with every element serving multiple purposes.
                                 </p>
                                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
-                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, we turn space constraints into design opportunities - creating homes that feel larger than they are.</p>
+                                    <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, we turn space constraints into design opportunities - creating homes that feel larger than they are.</p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center' }}>
@@ -96,8 +96,8 @@ const SpaceSaving = () => {
                 </section>
 
                 <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1600&q=80" alt="Space Saving Design - Kryoss Interior" />
-                    <div className="blog-wide-image__caption">Smart Space-Saving Interior Design â€¢ Kryoss Interior</div>
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1600&q=80" alt="Space Saving Design - Kryoss Interiors" />
+                    <div className="blog-wide-image__caption">Smart Space-Saving Interior Design â€¢ Kryoss Interiors</div>
                 </div>
 
                 <section ref={reg('ideas')} data-section="ideas" id="ideas" style={{ marginBottom: '5rem', scrollMarginTop: '6rem' }}>

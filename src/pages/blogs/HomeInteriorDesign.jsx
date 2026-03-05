@@ -122,7 +122,7 @@ const faqs = [
   { q: 'What is the average cost of home interior design in India?', a: 'Costs vary depending on size, materials, and customization. For a 2BHK, modular interiors typically range from Rs. 3-5 lakhs for basic designs and Rs. 6-10 lakhs for premium finishes.' },
   { q: 'How long does a home interior project take?', a: 'On average, 6-12 weeks depending on scope and complexity. A full home interior includes design finalization (1-2 weeks), material procurement (2-3 weeks), and installation (3-5 weeks).' },
   { q: 'Is modular interior better than traditional carpentry?', a: 'Modular interiors provide precision engineering, faster installation (40% faster), standardized quality, and factory-finished components. They also offer easier maintenance and flexibility to reconfigure in the future.' },
-  { q: 'Do you provide warranty on interiors?', a: 'Yes, Kryoss Interior provides comprehensive warranty on modular products - typically 5 years on materials and 1 year on installation. Hardware like channels and hinges come with extended warranties.' },
+  { q: 'Do you provide warranty on interiors?', a: 'Yes, Kryoss Interiors provides comprehensive warranty on modular products - typically 5 years on materials and 1 year on installation. Hardware like channels and hinges come with extended warranties.' },
 ];
 
 const HomeInteriorDesign = () => {
@@ -200,7 +200,7 @@ const HomeInteriorDesign = () => {
                 </p>
                 <div className="blog-quote" style={{ background: 'rgba(255,255,255,0.07)', borderColor: '#c9a96e' }}>
                   <p className="blog-quote__text" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    At <strong style={{ color: '#c9a96e' }}>Kryoss Interior</strong>, every home is designed with a balance of aesthetics, practicality, and long-term value.
+                    At <strong style={{ color: '#c9a96e' }}>Kryoss Interiors</strong>, every home is designed with a balance of aesthetics, practicality, and long-term value.
                   </p>
                 </div>
               </div>
@@ -218,8 +218,8 @@ const HomeInteriorDesign = () => {
 
         {/* WIDE BANNER */}
         <div className="blog-wide-image" style={{ marginBottom: '5rem' }}>
-          <img src={modernLivingRoom} alt="Modern Living Room - Kryoss Interior" />
-          <div className="blog-wide-image__caption">Modern Living Room Design â€¢ Kryoss Interior</div>
+          <img src={modernLivingRoom} alt="Modern Living Room - Kryoss Interiors" />
+          <div className="blog-wide-image__caption">Modern Living Room Design â€¢ Kryoss Interiors</div>
         </div>
 
         {/* DESIGN IDEAS */}
